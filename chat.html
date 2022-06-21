@@ -32,7 +32,7 @@
 
                 websocket.onclose = function() {
                     console.log("connection closed");
-                    btn.disabled = false;
+                    btn.disabled = true;
                 }
 
                 websocket.onmessage = function(e) {
